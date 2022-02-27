@@ -1,0 +1,33 @@
+{
+  "name": "league-kit",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "MIT",
+  "main": "index.js",
+  "type": "module",
+  "keywords": [],
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "scripts": {
+    "dev": "nodemon examples/index.js"
+  },
+  "homepage": "https://github.com/Metainy/league-kit#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Metainy/league-kit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Metainy/league-kit/issues"
+  },
+  "dependencies": {
+    "chokidar": "^3.0.2",
+    "fs-extra": "^10.0.1",
+    "node-fetch": "^3.2.0",
+    "ws": "^8.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
